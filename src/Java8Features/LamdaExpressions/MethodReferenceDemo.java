@@ -7,14 +7,17 @@ interface My_Lamda{
 
 public class MethodReferenceDemo {
 
+    // Constructor
     public MethodReferenceDemo(String s){
         System.out.println(s);
     }
 
+    // Static-method
     public static void upper(String str){
         System.out.println(str.toUpperCase());
     }
 
+    // Non-static method
     public void lower(String str){
         System.out.println(str);
     }
