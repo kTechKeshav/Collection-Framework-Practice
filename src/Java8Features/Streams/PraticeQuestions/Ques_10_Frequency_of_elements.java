@@ -5,6 +5,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+/*
+*   Calculate the frequency of each element in the provided list using Stream Api.
+* */
+
 public class Ques_10_Frequency_of_elements {
     public static void main(String[] args) {
         List<String> list = Arrays.asList("APPLE", "BANANA", "APPLE", "ORANGE", "BANANA", "BANANA");
